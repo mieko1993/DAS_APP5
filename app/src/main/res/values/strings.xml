@@ -82,6 +82,10 @@
     <string name="textView_units">Units</string>
     <string name="button_save">Save</string>
 
+    <!--Languajes-->
+    <string name="checkbox_spanish">Spanish</string>
+    <string name="checkbox_english">English</string>
+    <string name="checkbox_german">German</string>
 
     <!--Activities title-->
     <string name="hello_world">Hello world!</string>

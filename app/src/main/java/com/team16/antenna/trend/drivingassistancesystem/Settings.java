@@ -15,6 +15,7 @@ public class Settings extends BaseActivity {
         super.onCreateDrawer();
         //Action bar needs to be instatiate in every Activity that has layout
         setUpActionBar();
+
     }
 
 

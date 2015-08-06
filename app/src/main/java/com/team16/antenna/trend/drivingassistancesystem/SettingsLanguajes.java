@@ -6,6 +6,11 @@ import android.view.View;
 
 public class SettingsLanguajes extends BaseActivity {
 
+    String lenguaje;
+    private String Spanish;
+    private String English;
+    private String German;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -13,6 +18,7 @@ public class SettingsLanguajes extends BaseActivity {
         super.onCreateDrawer();
         //Action bar needs to be instatiate in every Activity that has layout
         setUpActionBar();
+
     }
 
     //Set up Action Bar
@@ -28,4 +34,6 @@ public class SettingsLanguajes extends BaseActivity {
         super.onBackPressed();
 
     }
+
+
 }

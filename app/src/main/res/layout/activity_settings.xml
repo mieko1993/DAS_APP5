@@ -102,7 +102,7 @@
                     android:layout_height="0dp"
                     android:textColor="@color/md_grey_400"
                     android:layout_weight="1"
-                    android:text="@string/textView_languages" />
+                    android:text="@string/checkbox_english" />
 
                 <TextView
                     android:id="@+id/textViewUnits"
