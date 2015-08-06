@@ -76,6 +76,10 @@
             android:name=".Tutorials"
             android:label="@string/title_activity_tutorials" >
         </activity>
+        <activity
+            android:name=".Connection"
+            android:label="@string/title_activity_connection" >
+        </activity>
     </application>
 
 </manifest>

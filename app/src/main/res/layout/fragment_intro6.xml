@@ -6,11 +6,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_obdConnection"
-        android:id="@+id/button_obdConnection"
+        android:text="@string/button_start"
+        android:id="@+id/button_obdStart"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="80dp"
-        android:onClick="onClickButtonOBDConnection"/>
+        android:onClick="onClickButtonStart"/>
 
 </RelativeLayout>

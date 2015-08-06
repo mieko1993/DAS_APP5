@@ -20,8 +20,8 @@ public class Introduction extends ActionBarActivity {
         mViewPager.setAdapter(adapter);
     }
 
-    public void onClickButtonOBDConnection(View view){
-        Intent i=new Intent(Introduction.this,OBD.class);
+    public void onClickButtonStart(View view){
+        Intent i=new Intent(Introduction.this,Connection.class);
         startActivity(i);
     }
 
