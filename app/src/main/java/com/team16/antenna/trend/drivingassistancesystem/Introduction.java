@@ -42,6 +42,10 @@ public class Introduction extends ActionBarActivity {
                 case 3:
                     return new Intro4();
                 case 4:
+                    return new Intro5();
+                case 5:
+                    return new Intro6();
+                case 6:
                     onDestroy();
                 default:
                     return null;
@@ -49,7 +53,7 @@ public class Introduction extends ActionBarActivity {
         }
 
         public int getCount() {
-            return 4;
+            return 6;
         }
 
         public CharSequence getPageTitle(int position) {
@@ -66,6 +70,12 @@ public class Introduction extends ActionBarActivity {
                     break;
                 case 3:
                     title = "4";
+                    break;
+                case 4:
+                    title = "5";
+                    break;
+                case 5:
+                    title = "6";
                     break;
             }
             return title;
