@@ -81,11 +81,14 @@
     <string name="textView_languages">Languages</string>
     <string name="textView_units">Units</string>
     <string name="button_save">Save</string>
-
     <!--Languajes-->
     <string name="checkbox_spanish">Spanish</string>
     <string name="checkbox_english">English</string>
     <string name="checkbox_german">German</string>
+    <!--Notifications-->
+    <string name="checkbox_visual">Visual</string>
+    <string name="checkbox_auditory">Auditory</string>
+    <string name="textView_auditory">Practical when you 're driving</string>
 
     <!--Activities title-->
     <string name="hello_world">Hello world!</string>
