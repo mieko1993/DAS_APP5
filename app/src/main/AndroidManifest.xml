@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team16.antenna.trend.drivingassistancesystem" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Start"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".Terms"
+            android:label="@string/title_activity_terms" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Forgot"
+            android:label="@string/title_activity_forgot" >
+        </activity>
+        <activity
+            android:name=".Forgot2"
+            android:label="@string/title_activity_forgot2" >
+        </activity>
+        <activity
+            android:name=".Introduction"
+            android:label="@string/title_activity_introduction" >
+        </activity>
+        <activity
+            android:name=".OBD"
+            android:label="@string/title_activity_obd" >
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name=".Scan"
+            android:label="@string/title_activity_scan" >
+        </activity>
+        <activity
+            android:name=".Calendar"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name=".Statistics"
+            android:label="@string/title_activity_statistics" >
+        </activity>
+        <activity
+            android:name=".Tips"
+            android:label="@string/title_activity_tips" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".Tutorials"
+            android:label="@string/title_activity_tutorials" >
+        </activity>
+    </application>
+
+</manifest>
