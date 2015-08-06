@@ -74,6 +74,15 @@
     <string name="title_help">Help</string>
     <string name="title_logout">Logout</string>
 
+    <!--Settings menu-->
+    <string name="textView_carData">Car Data</string>
+    <string name="textView_alarms">Alarms</string>
+    <string name="textView_notifications">Notifications</string>
+    <string name="textView_languages">Languages</string>
+    <string name="textView_units">Units</string>
+    <string name="button_save">Save</string>
+
+
     <!--Activities title-->
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
