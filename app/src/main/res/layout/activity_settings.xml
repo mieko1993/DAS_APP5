@@ -37,6 +37,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
+                    android:onClick="onClickTextViewCarData"
                     android:textColor="@color/md_text_white"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/textView_carData" />
@@ -55,6 +56,7 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_height="0dp"
                     android:layout_weight="1"
+                    android:onClick="onClickTextViewAlarms"
                     android:textColor="@color/md_text_white"
                     android:text="@string/textView_alarms" />
 
@@ -70,6 +72,7 @@
                     android:id="@+id/textViewNotifications"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
+                    android:onClick="onClickTextViewNotifications"
                     android:layout_weight="1"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/md_text_white"
@@ -87,6 +90,7 @@
                     android:id="@+id/textViewLanguages"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
+                    android:onClick="onClickTextViewLanguages"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/md_text_white"
                     android:layout_weight="1"
@@ -103,6 +107,7 @@
                 <TextView
                     android:id="@+id/textViewUnits"
                     android:layout_width="match_parent"
+                    android:onClick="onClickTextViewUnits"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_height="0dp"
                     android:textColor="@color/md_text_white"

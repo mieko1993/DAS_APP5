@@ -103,6 +103,11 @@
     <string name="title_activity_help">Help</string>
     <string name="title_activity_tutorials">Tutorials</string>
     <string name="title_activity_connection">Bluethood Connection</string>
+    <string name="title_activity_settings_car_data">Settings - Car Data</string>
+    <string name="title_activity_settings_alarms">Settings - Alarms</string>
+    <string name="title_activity_settings_notifications">Settings - Notifications</string>
+    <string name="title_activity_settings_languajes">Settings - Languajes</string>
+    <string name="title_activity_settings_units">Settings - Units</string>
 
 
 </resources>

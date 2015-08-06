@@ -1,9 +1,8 @@
 package com.team16.antenna.trend.drivingassistancesystem;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
 
@@ -19,27 +18,6 @@ public class Settings extends BaseActivity {
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_settings, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     //Set up Action Bar
     private void setUpActionBar() {
@@ -55,10 +33,10 @@ public class Settings extends BaseActivity {
         mActionBarToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(drawerList.isShown()){
+                if (drawerList.isShown()) {
                     //Close Navigation Drawer
                     drawerLayout.closeDrawer(Gravity.LEFT);
-                }else {
+                } else {
                     //Open Navigation Drawer
                     drawerLayout.openDrawer(Gravity.LEFT);
                 }
@@ -67,6 +45,40 @@ public class Settings extends BaseActivity {
 
     }
 
+    //when button Save is clicked
+    public void onClickButtonSaveSettings(View view){
+        super.onBackPressed();
+
+    }
+
+    //when Car Data is clicked
+    public void onClickTextViewCarData(View view){
+        Intent intent=new Intent(Settings.this,SettingsCarData.class);
+        startActivity(intent);
+    }
+    //when Alarm is clicked
+    public void onClickTextViewAlarms(View view){
+        Intent intent=new Intent(Settings.this,SettingsAlarms.class);
+        startActivity(intent);
+    }
+
+    //when Notifications is clicked
+    public void onClickTextViewNotifications(View view){
+        Intent intent=new Intent(Settings.this,SettingsNotifications.class);
+        startActivity(intent);
+    }
+
+    //when Languages is clicked
+    public void onClickTextViewLanguages(View view){
+        Intent intent=new Intent(Settings.this,SettingsLanguajes.class);
+        startActivity(intent);
+    }
+
+    //when Units is clicked
+    public void onClickTextViewUnits(View view){
+        Intent intent=new Intent(Settings.this,SettingsUnits.class);
+        startActivity(intent);
+    }
 
 
 }

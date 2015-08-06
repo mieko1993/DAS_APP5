@@ -80,6 +80,26 @@
             android:name=".Connection"
             android:label="@string/title_activity_connection" >
         </activity>
+        <activity
+            android:name=".SettingsCarData"
+            android:label="@string/title_activity_settings_car_data" >
+        </activity>
+        <activity
+            android:name=".SettingsAlarms"
+            android:label="@string/title_activity_settings_alarms" >
+        </activity>
+        <activity
+            android:name=".SettingsNotifications"
+            android:label="@string/title_activity_settings_notifications" >
+        </activity>
+        <activity
+            android:name=".SettingsLanguajes"
+            android:label="@string/title_activity_settings_languajes" >
+        </activity>
+        <activity
+            android:name=".SettingsUnits"
+            android:label="@string/title_activity_settings_units" >
+        </activity>
     </application>
 
 </manifest>
