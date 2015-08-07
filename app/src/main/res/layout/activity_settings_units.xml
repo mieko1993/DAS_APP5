@@ -17,35 +17,56 @@
             android:id="@+id/drawer_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context="com.app.navigationdrawer.Units">
+            tools:context="com.app.navigationdrawer.Alarms">
 
 
-            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:orientation="vertical"
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin">
 
+                <Switch
+                    android:id="@+id/switch_englandSystem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp"
+                    android:text="@string/checkbox_englandSystem" />
 
                 <TextView
-                    android:id="@+id/textViewUnits"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/textView_units" />
+                    android:layout_marginLeft="50dp"
+                    android:text="@string/textView_englandSystem"/>
+
+                <Switch
+                    android:id="@+id/switch_internationalSystem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30dp"
+                    android:checked="true"
+                    android:text="@string/checkbox_internationalSystem" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="@string/textView_internationalSystem"/>
+
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/button_save"
+                    android:layout_gravity="center_horizontal"
                     android:onClick="onClickButtonSaveSettingsUnits"
-                    android:layout_centerVertical="true"
-                    android:layout_alignParentStart="true" />
+                    android:text="@string/button_bakcForget2" />
 
 
-            </RelativeLayout>
+            </LinearLayout>
 
             <!-- <include layout="@layout/toolbar_actionbar" /> -->
             <ListView

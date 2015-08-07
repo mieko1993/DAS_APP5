@@ -94,11 +94,21 @@
     <string name="textView_speed">Speed</string>
     <string name="textView_braking">Braking</string>
     <string name="textView_fuel">Fuel</string>
+    <string name="textView_tankstatus">Tank Status</string>
     <string name="checkbox_customLimit">Custom Limit</string>
+    <string name="hint_customLimit">100</string>
     <string name="checkbox_defaultLimit">Default Limit</string>
     <string name="checkbox_defaultLimit60">60Km/hr</string>
     <string name="checkbox_defaultLimit50">50Km/hr</string>
     <string name="checkbox_defaultLimit80">80km/hr</string>
+    <string name="checkbox_defaultTank14">1/4 L</string>
+    <string name="checkbox_defaultTank12">1/2 L</string>
+    <string name="checkbox_defaultTank34">3/4 L</string>
+    <!--Units-->
+    <string name="checkbox_englandSystem">England System</string>
+    <string name="checkbox_internationalSystem">International System</string>
+    <string name="textView_englandSystem">lb, mile, pound</string>
+    <string name="textView_internationalSystem">Km,kg,hr</string>
 
 
 

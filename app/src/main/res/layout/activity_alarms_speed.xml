@@ -30,22 +30,98 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin">
 
-
-                <TextView
-                    android:id="@+id/textViewAlarmsSpeed"
+                <Switch
+                    android:id="@+id/switch_customLimit"
                     android:layout_width="match_parent"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="@string/textView_speed" />
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/checkbox_customLimit" />
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText_customLimit"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/hint_customLimit"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Km/hr" />
+
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/switch_defaulLimit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:checked="true"
+                    android:text="@string/checkbox_defaultLimit" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox_customLimit50"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox_defaultLimit50" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_customLimit60"
+                    android:layout_width="0dp"
+                    android:padding="20dp"
+                    android:checked="true"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox_defaultLimit60" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_customLimit80"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox_defaultLimit80" />
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/switch_notificationsAlarmsSpeed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:checked="true"
+                    android:text="@string/textView_notifications" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="@string/checkbox_auditory"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="@string/checkbox_visual"/>
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/button_bakcForget2"
                     android:layout_gravity="center_horizontal"
-                    android:onClick="onClickButtonBackSettingsAlarmsSpeed" />
+                    android:onClick="onClickButtonBackSettingsAlarmsSpeed"
+                    android:text="@string/button_bakcForget2" />
 
 
             </LinearLayout>

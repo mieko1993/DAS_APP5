@@ -31,21 +31,70 @@
                 android:paddingTop="@dimen/activity_vertical_margin">
 
 
-                <TextView
-                    android:id="@+id/textViewAlarmsSpeed"
+                <Switch
+                    android:id="@+id/switch_defaulLimit"
                     android:layout_width="match_parent"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:text="@string/textView_fuel" />
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:checked="true"
+                    android:text="@string/textView_tankstatus" />
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBox_tank14"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:padding="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkbox_defaultTank14" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_tank12"
+                        android:layout_width="0dp"
+                        android:padding="20dp"
+                        android:checked="true"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkbox_defaultTank12" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_tank34"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/checkbox_defaultTank34" />
+                </LinearLayout>
+
+                <Switch
+                    android:id="@+id/switch_notificationsAlarmsFuel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:checked="true"
+                    android:text="@string/textView_notifications" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="@string/checkbox_auditory"/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="@string/checkbox_visual"/>
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/button_bakcForget2"
                     android:layout_gravity="center_horizontal"
-                    android:onClick="onClickButtonBackSettingsAlarmsFuel" />
+                    android:onClick="onClickButtonBackSettingsAlarmsFuel"
+                    android:text="@string/button_bakcForget2" />
 
 
             </LinearLayout>
