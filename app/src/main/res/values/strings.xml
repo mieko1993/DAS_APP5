@@ -88,7 +88,19 @@
     <!--Notifications-->
     <string name="checkbox_visual">Visual</string>
     <string name="checkbox_auditory">Auditory</string>
-    <string name="textView_auditory">Practical when you 're driving</string>
+    <string name="textView_auditory">Practical when you are driving</string>
+    <!--Alarms-->
+    <string name="textView_aceleration">Aceleration</string>
+    <string name="textView_speed">Speed</string>
+    <string name="textView_braking">Braking</string>
+    <string name="textView_fuel">Fuel</string>
+    <string name="checkbox_customLimit">Custom Limit</string>
+    <string name="checkbox_defaultLimit">Default Limit</string>
+    <string name="checkbox_defaultLimit60">60Km/hr</string>
+    <string name="checkbox_defaultLimit50">50Km/hr</string>
+    <string name="checkbox_defaultLimit80">80km/hr</string>
+
+
 
     <!--Activities title-->
     <string name="hello_world">Hello world!</string>
@@ -115,6 +127,10 @@
     <string name="title_activity_settings_notifications">Settings - Notifications</string>
     <string name="title_activity_settings_languajes">Settings - Languajes</string>
     <string name="title_activity_settings_units">Settings - Units</string>
+    <string name="title_activity_alarms_speed">Settings - Alarms - Speed</string>
+    <string name="title_activity_alarms_aceleration">Settings - Alarms - Aceleration</string>
+    <string name="title_activity_alarms_fuel">Settings - Alarms - Fuel</string>
+    <string name="title_activity_alarms_braking">Settings - Alarms - Braking</string>
 
 
 </resources>

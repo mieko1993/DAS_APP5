@@ -37,42 +37,15 @@
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:onClick="onClickTextViewAlarmsSpeed"
                     android:text="@string/textView_speed" />
 
-                <TextView
-                    android:id="@+id/textViewAlarmsAcceleration"
-                    android:layout_width="match_parent"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:onClick="onClickTextViewAlarmsAceleration"
-                    android:text="@string/textView_aceleration" />
-
-                <TextView
-                    android:id="@+id/textViewAlarmsBraking"
-                    android:layout_width="match_parent"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:onClick="onClickTextViewAlarmsBraking"
-                    android:text="@string/textView_braking" />
-
-                <TextView
-                    android:id="@+id/textViewAlarmsFuel"
-                    android:layout_width="match_parent"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:onClick="onClickTextViewAlarmsFuel"
-                    android:text="@string/textView_fuel" />
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/button_bakcForget2"
                     android:layout_gravity="center_horizontal"
-                    android:onClick="onClickButtonBackSettingsAlarms" />
+                    android:onClick="onClickButtonBackSettingsAlarmsSpeed" />
 
 
             </LinearLayout>

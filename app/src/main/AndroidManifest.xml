@@ -100,6 +100,22 @@
             android:name=".SettingsUnits"
             android:label="@string/title_activity_settings_units" >
         </activity>
+        <activity
+            android:name=".AlarmsSpeed"
+            android:label="@string/title_activity_alarms_speed" >
+        </activity>
+        <activity
+            android:name=".AlarmsAceleration"
+            android:label="@string/title_activity_alarms_aceleration" >
+        </activity>
+        <activity
+            android:name=".AlarmsFuel"
+            android:label="@string/title_activity_alarms_fuel" >
+        </activity>
+        <activity
+            android:name=".AlarmsBraking"
+            android:label="@string/title_activity_alarms_braking" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package com.team16.antenna.trend.drivingassistancesystem;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -24,8 +25,28 @@ public class SettingsAlarms extends BaseActivity {
     }
 
     //when button Save is clicked
-    public void onClickButtonSaveSettingsAlarms(View view){
+    public void onClickButtonBackSettingsAlarms(View view){
         super.onBackPressed();
 
+    }
+
+    public void onClickTextViewAlarmsSpeed(View view){
+        Intent i=new Intent(SettingsAlarms.this,AlarmsSpeed.class);
+        startActivity(i);
+    }
+
+    public void onClickTextViewAlarmsAceleration(View view){
+        Intent i=new Intent(SettingsAlarms.this,AlarmsAceleration.class);
+        startActivity(i);
+    }
+
+    public void onClickTextViewAlarmsFuel(View view){
+        Intent i=new Intent(SettingsAlarms.this,AlarmsFuel.class);
+        startActivity(i);
+    }
+
+    public void onClickTextViewAlarmsBraking(View view){
+        Intent i=new Intent(SettingsAlarms.this,AlarmsBraking.class);
+        startActivity(i);
     }
 }
